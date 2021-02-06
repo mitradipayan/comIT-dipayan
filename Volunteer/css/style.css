@@ -1,0 +1,90 @@
+
+
+/* HEADER STYLING */
+.header {
+  padding: 15px 15px;
+  height: 75px;
+}
+
+.header h1 {
+  font-weight: 900;
+}
+
+.header span { color: var(--theme-color);}
+
+.flex {display: flex;}
+
+.flex-spbtw { justify-content: space-between;}
+
+.login {
+  width: 20%;
+}
+
+.login a {
+  padding: 10px 5px; 
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.login a:hover {
+  color: var(--theme-color);
+  border-bottom: 2px solid var(--theme-color);
+}
+
+.signin {
+  line-height: 0;
+  margin-top: 15px;
+}
+
+/* Introduction section styling */
+.intro {
+  width: 100%;
+  background-color: var(--light-background);
+  height: 400px;
+}
+
+.introstatement{
+  width: 51%;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.introstatement h1 {
+  letter-spacing: 5px;
+  align-items:baseline;
+  margin-bottom: 50px;
+  
+}
+
+.introstatement q {
+  font-size: 700;
+  font-style: italic;
+  width: 200px;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+.introimg {
+  height: 400px;
+}
+
+/* browse */
+.browse {
+  background-color: #0b1464;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #e4e4e4;
+  height: 50px;
+}
+
+.browse a{
+  text-decoration: none;
+  color: #e4e4e4;
+}
+
+.browse a:hover {
+  color: var(--theme-color);
+  
+}
