@@ -12,17 +12,12 @@
 
 .header span { color: var(--theme-color);}
 
-.flex {display: flex;}
-
-.flex-spbtw { justify-content: space-between;}
-
 .login {
   width: 20%;
 }
 
 .login a {
   padding: 10px 5px; 
-  text-decoration: none;
   color: var(--primary-color);
 }
 
@@ -87,4 +82,29 @@
 .browse a:hover {
   color: var(--theme-color);
   
+}
+
+/* footer styling */
+
+.footer {
+  background-color: #ececec;
+}
+
+.footer .container {
+  padding-top: 50px;
+  width: 80%;
+  align-items: flex-start;
+}
+
+.footer span {
+  color: var(--theme-color);
+}
+
+.footer .organization
+.footer address {
+  align-items: center;
+}
+
+.footer .grid {
+  gap: 50px;
 }

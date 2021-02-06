@@ -1,20 +1,53 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 :root {
-  --primary-color: #232324;
-  --theme-color:#06cdff;
-  --light-background: #ecebeb;
+	--primary-color: #232324;
+	--theme-color: #06cdff;
+	--light-background: #ecebeb;
 }
 
 .container {
-  width: 90%;
-  margin: auto;
+	width: 90%;
+	margin: auto;
 }
 
 * {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	font-family: "Lato", sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.flex-spbtw {
+	justify-content: space-between;
+}
+
+
+
+.flex-col {
+  flex-direction: column;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3,1fr);
+}
+
+a {
+	text-decoration: none;
 }
