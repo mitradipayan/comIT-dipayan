@@ -198,3 +198,40 @@
 .forgot a:hover {
   font-weight: bold;
 }
+
+/* Opportunities section styling */
+.opportunities {
+  width: 100%;
+  background-color: #eeeded;
+  min-height: 16rem;
+  justify-content: space-evenly;
+}
+
+.opportunities h1 {
+  font-size: 2.2rem;
+  letter-spacing: 0.25rem;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+.opportunities #summary {
+  width: 60%;
+  margin: auto;
+  font-size: 1rem;
+  text-align: center;
+  font-stretch:expanded ;
+  letter-spacing: 0.15rem;
+  font-weight:lighter;
+}
+
+.opportunities #sp1 {
+  color: rgb(255, 196, 0);
+}
+
+.opportunities #sp2 {
+  color: var(--theme-color);
+}
+
+.opportunities #sp3 {
+  color: rgb(57, 223, 35);
+}
