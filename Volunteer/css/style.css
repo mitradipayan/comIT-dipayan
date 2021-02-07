@@ -147,27 +147,27 @@
 }
 
 .forminput {
-  width: 25rem;
+  width: 100%;
   height: 5rem;
-  margin-top: 1rem;
   align-items: flex-start;
   justify-content:first baseline;
-  
 }
 
 .forminput label {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   padding: 0 0.3rem;
-  font-weight: 700;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .forminput input{
   font-size: 1em;
   width: 100%;
-  padding: 0.6rem 0.3rem;
+  padding: 0.3rem 0.3rem;
   background-color: #f7f7f7;
   border: 0;
-  border-bottom: 0.125rem solid var(--theme-color);
+  border-bottom: 0.1rem solid var(--theme-color);
 }
 
 .forminput input:focus {
@@ -180,9 +180,10 @@
   padding: 0.5rem 0;
 }
 
-.signinpage button {
+.signinpage button,
+.register button {
   margin-top: 0.4rem;
-  font-weight: 700;
+  font-weight: bolder;
   letter-spacing: 0.3rem;
   text-transform: uppercase;
 }
@@ -195,8 +196,7 @@
 
 .forgot {
   margin-top: 1rem;
-  width: 100%;
-  align-self: flex-end;
+  width: 80%;
   font-size: 0.8rem;
 }
 
@@ -250,3 +250,17 @@
   background-color: #e4e4e4;
 }
 
+/* Register page styling */
+.register .logo {
+  text-align: center;
+}
+
+.register .card {
+  width: 35rem;
+  min-height: 35rem;
+  margin: 2rem auto;
+}
+
+.splitcol-2 {
+  gap: 0.5rem;
+}

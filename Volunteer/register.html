@@ -10,9 +10,58 @@
   <title>Serve the Planet | Register</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container register">
     <div class="card logo">
         <h2><i class="fab fa-connectdevelop"></i> <span>Serve</span> the Planet</h2>
+        <br>
+        <h3>Register to create an account</h3>
+        <div class="my-2">
+          <form action="" method="POST">
+            <div class="splitcol-2 flex">
+              <div class="forminput flex flex-col">
+                <label for="name">NAME</label>
+                <input type="text" name="name" required placeholder="Enter name">
+              </div>
+              <div class="forminput flex flex-col">
+                <label for="username">USERNAME</label>
+                <input type="email" name="username" placeholder="Enter email" required>
+              </div>
+            </div>
+
+            <div class="splitcol-2 flex">
+              <div class="forminput flex flex-col">
+                <label for="pwd">PASSWORD</label>
+                <input type="password" name="pwd" placeholder="Enter password" required>
+              </div>
+              
+            <div class="forminput flex flex-col">
+                <label for="pwdrepeat">CONFIRM PASSWORD</label>
+                <input type="password" name="pwdrepeat" placeholder="Repeat password" required>
+              </div>
+            </div>
+
+            <div class="splitcol-2 flex">
+              <div class="forminput flex flex-col">
+                <div class="custom-select">
+                <label for="country">COUNTRY</label>
+                <select name="country" id="country">
+                    
+                  </select>
+                </div>
+              </div>
+            </div>
+              
+              <div class="forminput flex flex-col">
+              <label for="username">CITY</label>
+              <input type="password" name="password" placeholder="Enter your password" required>
+            </div>
+            </div>
+
+
+            <button type="submit" class="btn">Register</button>
+        
+          </form>
+        </div>
     </div>
   </div>
 </body>
