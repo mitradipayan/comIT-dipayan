@@ -13,21 +13,33 @@
 </head>
 <body>
   <div class="signinpage">
-  <div class="card">
-    <h2><i class="fab fa-connectdevelop"></i> <span>Serve</span> Your Community</h2>
-    <form action="">
-      <div>
-        <p><label for="login">Login</label></p>
-        <p><input type="email" required placeholder="Enter your email"></p>
+  <div class="card flex flex-col">
+    <h2><i class="fab fa-connectdevelop"></i> <span>Serve</span> the Planet</h2>
+    <form action="" method="POST">
+      <div class="forminput flex flex-col">
+        <label for="login">Login</label>
+        <input type="email" name="login" placeholder="Enter your email" required>
       </div>
-      <div>
-        <p><label for="password">Password</label></p>
-        <p><input type="password" required placeholder="Enter your password"></p>
+
+      <div class="forminput flex flex-col">
+        <label for="password">Password</label>
+        <input type="password" name="password" placeholder="Enter your password" required>
       </div>
-      <button class="btn" type="submit">Submit</button>
+      
+      <div>
+        <p id="loginstatus"></p>
+      </div>
+      
+      <button type="submit" class="btn">Submit</button>
+      <input type="checkbox" name="rememberme" id="rememberme" checked>
+      <label for="rememeberme" id="remember">Remember Me</label>
+      
     </form>
-    <input type="checkbox" name="rememberme" id="rememberme" value="remember">
-    <label for="rememberme">Remember Me</label>
+
+    <div class="forgot">
+      <p><a href="#">Forgot Username or Password?</a></p>
+    </div>
+    
 
   </div>
   </div>

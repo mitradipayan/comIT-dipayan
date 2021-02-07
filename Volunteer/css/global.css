@@ -16,6 +16,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+  line-height: 1.4;
 }
 
 .flex {
@@ -29,10 +30,9 @@
 	justify-content: space-between;
 }
 
-
-
 .flex-col {
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .grid {
@@ -62,13 +62,13 @@ a {
 } 
 
 .btn {
-  width: 90%;
+  width: 100%;
   display: inline-block;
   padding: 10px 30px;
   cursor: pointer;
   background-color: var(--theme-color);
   border: none;
-  border-radius: 7px;
+  border-radius: 0.4rem;
   font-size: 15px;
   color: #fff;
 
