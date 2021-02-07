@@ -2,8 +2,8 @@
 
 /* HEADER STYLING */
 .header {
-  padding: 15px 15px;
-  height: 75px;
+  padding: 1rem 1rem;
+  min-height: 5rem;
 }
 
 .header h1 {
@@ -20,25 +20,25 @@
 }
 
 .login a {
-  padding: 10px 5px; 
+  padding: 0.6rem 0.3rem; 
   color: var(--primary-color);
 }
 
 .login a:hover {
   color: var(--theme-color);
-  border-bottom: 2px solid var(--theme-color);
+  border-bottom: 0.125rem solid var(--theme-color);
 }
 
 .signin {
   line-height: 0;
-  margin-top: 15px;
+  margin-top: 1rem;
 }
 
 /* Introduction section styling */
 .intro {
   width: 100%;
   background-color: var(--light-background);
-  height: 400px;
+  min-height: 25rem;
 }
 
 .introstatement{
@@ -49,22 +49,22 @@
 }
 
 .introstatement h1 {
-  letter-spacing: 5px;
+  letter-spacing: 0.3rem;
   align-items:baseline;
-  margin-bottom: 50px;
+  margin-bottom: 3rem;
   
 }
 
 .introstatement q {
   font-size: 700;
   font-style: italic;
-  width: 200px;
-  letter-spacing: 3px;
+  width: 12.5rem;
+  letter-spacing: 0.2rem;
   line-height: 1.5;
 }
 
 .introimg {
-  height: 400px;
+  height: 25rem;
 }
 
 /* browse */
@@ -74,7 +74,7 @@
   justify-content: space-evenly;
   align-items: center;
   color: #e4e4e4;
-  height: 50px;
+  height: 3rem;
 }
 
 .browse a{
@@ -94,7 +94,7 @@
 }
 
 .footer .container {
-  padding-top: 50px;
+  padding-top: 3rem;
   width: 80%;
   align-items: flex-start;
 }
@@ -109,12 +109,20 @@
 }
 
 .footer .grid {
-  gap: 50px;
+  gap: 3rem;
+}
+
+.footer a {
+  font-size: 0.8rem;
+}
+
+.footer .fab {
+  color: var(--primary-color);
 }
 
 .footer .social div a {
   display: inline;
-  margin-right: 5px;
+  margin-right: 0.3rem;
 }
 
 /* Login page styling */
@@ -147,10 +155,10 @@
 .forminput input{
   font-size: 1em;
   width: 100%;
-  padding: 10px 5px;
-  background-color: rgb(248, 247, 247);
+  padding: 0.6rem 0.3rem;
+  background-color: #f7f7f7;
   border: 0;
-  border-bottom: 2px solid var(--theme-color);
+  border-bottom: 0.125rem solid var(--theme-color);
 }
 
 .forminput input:focus {
@@ -173,7 +181,7 @@
 .signinpage button:hover {
   opacity: 0.8;
   transform: scale(0.98);
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
 }
 
 .forgot {
@@ -181,4 +189,12 @@
   width: 100%;
   align-self: flex-end;
   font-size: 0.8rem;
+}
+
+.forgot a {
+  color: tomato;
+}
+
+.forgot a:hover {
+  font-weight: bold;
 }
