@@ -149,8 +149,9 @@
 }
 
 .forminput label,
-.checkwrap label {
-	margin-bottom: 0.3rem;
+.checkwrap label,
+.rem {
+	margin-top: 0.3rem;
 	padding: 0 0.3rem;
 	font-size: 0.8rem;
 	font-weight: bold;
