@@ -1,266 +1,342 @@
-
-
 /* HEADER STYLING */
 .header {
-  padding: 1rem 1rem;
-  min-height: 5rem;
+	padding: 1rem 1rem;
+	min-height: 5rem;
 }
 
 .header h1 {
-  font-weight: 900;
+	font-weight: 900;
 }
 
-.logo span { 
-  color: var(--theme-color);
+.logo span {
+	color: var(--theme-color);
 }
 
 .login {
-  width: 20%;
+	width: 20%;
 }
 
 .login a {
-  padding: 0.6rem 0.3rem; 
-  color: var(--primary-color);
+	padding: 0.6rem 0.3rem;
+	color: var(--primary-color);
 }
 
 .login a:hover {
-  color: var(--theme-color);
-  border-bottom: 0.125rem solid var(--theme-color);
+	color: var(--theme-color);
+	border-bottom: 0.125rem solid var(--theme-color);
 }
 
 .signin {
-  line-height: 0;
-  margin-top: 1rem;
+	line-height: 0;
+	margin-top: 1rem;
 }
 
 /* Introduction section styling */
 .intro {
-  width: 100%;
-  background-color: var(--light-background);
-  min-height: 25rem;
+	width: 100%;
+	background-color: var(--light-background);
+	min-height: 25rem;
 }
 
-.introstatement{
-  width: 51%;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
+.introstatement {
+	width: 51%;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
 }
 
 .introstatement h1 {
-  letter-spacing: 0.3rem;
-  align-items:baseline;
-  margin-bottom: 3rem;
-  
+	letter-spacing: 0.3rem;
+	align-items: baseline;
+	margin-bottom: 3rem;
 }
 
 .introstatement q {
-  font-size: 700;
-  font-style: italic;
-  width: 12.5rem;
-  letter-spacing: 0.2rem;
-  line-height: 1.5;
+	font-size: 700;
+	font-style: italic;
+	width: 12.5rem;
+	letter-spacing: 0.2rem;
+	line-height: 1.5;
 }
 
 .introimg {
-  height: 25rem;
+	height: 25rem;
 }
 
 /* browse */
 .browse {
-  background-color: #0b1464;
-  width: 100%;
-  justify-content: space-evenly;
-  align-items: center;
-  color: #e4e4e4;
-  height: 3rem;
+	background-color: #0b1464;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+	color: #e4e4e4;
+	height: 3rem;
 }
 
-.browse a{
-  text-decoration: none;
-  color: #e4e4e4;
+.browse a {
+	text-decoration: none;
+	color: #e4e4e4;
 }
 
 .browse a:hover {
-  color: var(--theme-color);
-  
+	color: var(--theme-color);
 }
 
 /* footer styling */
 
 .footer {
-  background-color: #ececec;
+	background-color: #ececec;
 }
 
 .footer .container {
-  padding-top: 3rem;
-  width: 80%;
-  align-items: flex-start;
+	padding-top: 3rem;
+	width: 80%;
+	align-items: flex-start;
 }
 
-.footer .organization
-.footer address {
-  align-items: center;
+.footer .organization .footer address {
+	align-items: center;
 }
 
 .footer .grid {
-  gap: 3rem;
+	gap: 3rem;
 }
 
 .footer a {
-  font-size: 0.8rem;
+	font-size: 0.8rem;
 }
 
 .footer .fab {
-  color: var(--primary-color);
+	color: var(--primary-color);
 }
 
 .footer .social div a {
-  display: inline;
-  margin-right: 0.3rem;
+	display: inline;
+	margin-right: 0.3rem;
 }
 
 /* Login page styling */
 .signinpage .card {
-  width:28rem;
-  height: 30rem;
-  margin: auto;
-  margin-top: 6rem ;
+	width: 28rem;
+	height: 30rem;
+	margin: auto;
+	margin-top: 6rem;
 }
 
 .signinpage h2 {
-  margin: 1.25rem auto;
+	margin: 1.25rem auto;
 }
 
 .signinpage #accreg {
-  text-align: right;  
-  width: 100%;
-  font-size: 0.7rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 1rem;
+	text-align: right;
+	width: 100%;
+	font-size: 0.7rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 1rem;
 }
 
 .signinpage #accreg a {
-  color: var(--theme-color);
-  text-decoration: underline;
+	color: var(--theme-color);
+	text-decoration: underline;
 }
 
 .forminput {
-  width: 100%;
-  height: 5rem;
-  align-items: flex-start;
-  justify-content:first baseline;
+	width: 100%;
+	height: 5rem;
+	align-items: flex-start;
+	justify-content: first baseline;
 }
 
 .forminput label {
-  margin-bottom: 0.3rem;
-  padding: 0 0.3rem;
-  font-size: 0.8rem;
-  font-weight: bold;
-  text-transform: uppercase;
+	margin-bottom: 0.3rem;
+	padding: 0 0.3rem;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
 }
 
-.forminput input{
-  font-size: 1em;
-  width: 100%;
-  padding: 0.3rem 0.3rem;
-  background-color: #f7f7f7;
-  border: 0;
-  border-bottom: 0.1rem solid var(--theme-color);
+.forminput input {
+	font-size: 0.9em;
+	width: 100%;
+	padding: 0.3rem 0.3rem;
+	background-color: #f7f7f7;
+	border: 0;
+	border-bottom: 0.1rem solid var(--theme-color);
 }
 
 .forminput input:focus {
-  outline: none;
+	outline: none;
 }
 
 .signinpage #loginstatus {
-  width: 100%;
-  font-size: 0.7rem;
-  padding: 0.5rem 0;
+	width: 100%;
+	font-size: 0.7rem;
+	padding: 0.5rem 0;
 }
 
 .signinpage button,
 .register button {
-  margin-top: 0.4rem;
-  font-weight: bolder;
-  letter-spacing: 0.3rem;
-  text-transform: uppercase;
+	margin-top: 0.4rem;
+	font-weight: bolder;
+	letter-spacing: 0.3rem;
+	text-transform: uppercase;
 }
 
 .signinpage button:hover {
-  opacity: 0.8;
-  transform: scale(0.98);
-  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
+	opacity: 0.8;
+	transform: scale(0.98);
+	transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 500ms;
 }
 
 .forgot {
-  margin-top: 1rem;
-  width: 80%;
-  font-size: 0.8rem;
+	margin-top: 1rem;
+	width: 80%;
+	font-size: 0.8rem;
 }
 
 .forgot a {
-  color: tomato;
+	color: tomato;
 }
 
 .forgot a:hover {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 /* Opportunities section styling */
 .opportunities {
-  width: 100%;
-  background-color: #eeeded;
-  min-height: 16rem;
-  justify-content: space-evenly;
+	width: 100%;
+	background-color: #eeeded;
+	min-height: 16rem;
+	justify-content: space-evenly;
 }
 
 .opportunities h1 {
-  font-size: 2.2rem;
-  letter-spacing: 0.25rem;
-  padding: 1.6rem;
-  text-align: center;
+	font-size: 2.2rem;
+	letter-spacing: 0.25rem;
+	padding: 1.6rem;
+	text-align: center;
 }
 
 .opportunities #summary {
-  width: 60%;
-  margin: auto;
-  font-size: 1rem;
-  text-align: center;
-  font-stretch:expanded ;
-  letter-spacing: 0.15rem;
-  font-weight:lighter;
+	width: 60%;
+	margin: auto;
+	font-size: 1rem;
+	text-align: center;
+	font-stretch: expanded;
+	letter-spacing: 0.15rem;
+	font-weight: lighter;
 }
 
 .opportunities #sp1 {
-  color: rgb(255, 196, 0);
+	color: rgb(255, 196, 0);
 }
 
 .opportunities #sp2 {
-  color: var(--theme-color);
+	color: var(--theme-color);
 }
 
 .opportunities #sp3 {
-  color: rgb(57, 223, 35);
+	color: rgb(57, 223, 35);
 }
 
 .opplist {
-  width: 100%;
-  background-color: #e4e4e4;
+	width: 100%;
+	background-color: #e4e4e4;
 }
 
 /* Register page styling */
 .register .logo {
-  text-align: center;
+	text-align: center;
 }
 
 .register .card {
-  width: 35rem;
-  min-height: 35rem;
-  margin: 2rem auto;
+	width: 35rem;
+	min-height: 35rem;
+	margin: 2rem auto;
 }
 
 .splitcol-2 {
-  gap: 0.5rem;
+	gap: 0.5rem;
 }
+
+.custom-select {
+	width: 100%;
+	align-items: flex-start;
+	position: relative;
+}
+
+.custom-select select {
+	height: 2rem;
+	padding: 0.3rem 0.3rem;
+	line-height: 1.5rem;
+	font-size: 1rem;
+	width: 100%;
+	appearance: none;
+	border: none;
+	border-bottom: 0.1rem solid var(--theme-color);
+	background-color: #f7f7f7;
+}
+
+.custom-select select:focus {
+	outline: none;
+}
+
+.custom-arrow {
+	position: absolute;
+	top: 0.3rem;
+	right: 1rem;
+	pointer-events: none;
+}
+
+/* ---------------custom arrow based select box styling - START---------------- */
+/* .c-select select {
+  font-size: 1rem;
+  padding: 0.3rem 0.3rem;
+  background-color: #f7f7f7;
+  border: 0;
+  width: 100%;
+}
+
+.c-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-arrow {
+  display: block;
+  background-color: var(--theme-color);
+  height: 2rem;
+  width: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  pointer-events: none;
+}
+
+.custom-arrow::after,
+.custom-arrow::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  --size: 0.4rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.custom-arrow::after {
+  border-left: var(--size) solid transparent ;
+  border-right: var(--size) solid transparent ;
+  border-top: var(--size) solid white ;
+  top: 60%;
+}
+
+.custom-arrow::before {
+  border-left: var(--size) solid transparent ;
+  border-right: var(--size) solid transparent ;
+  border-bottom: var(--size) solid white;
+  top: 30%;
+} */
+/* ---------------custom arrow based select box styling END---------------- */

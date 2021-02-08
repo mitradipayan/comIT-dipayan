@@ -12,9 +12,9 @@
 <body>
   <div class="container register">
     <div class="card logo">
-        <h2><i class="fab fa-connectdevelop"></i> <span>Serve</span> the Planet</h2>
-        <br>
-        <h3>Register to create an account</h3>
+      <h2><i class="fab fa-connectdevelop"></i> <span>Serve</span> the Planet</h2>
+      <br>
+      <h3>Register to create an account</h3>
         <div class="my-2">
           <form action="" method="POST">
             <div class="splitcol-2 flex">
@@ -42,27 +42,30 @@
 
             <div class="splitcol-2 flex">
               <div class="forminput flex flex-col">
-                <div class="custom-select">
-                <label for="country">COUNTRY</label>
-                <select name="country" id="country">
-                    
+                  <label for="country">COUNTRY</label>
+                  <div class="custom-select flex flex-col">
+                    <select name="country" id="country" >
+                      <option value="India">India</option>  
+                      <option value="Canada">Canada</option>  
+                      <option value="USA">United States</option>  
                   </select>
+                  <span class="custom-arrow"><i class="fas fa-angle-down"></i></span>
                 </div>
+              </div>
+              <div class="forminput flex flex-col">
+              <label for="username">CITY</label>
+              <input type="password" name="password" placeholder="Enter city" required>
               </div>
             </div>
               
-              <div class="forminput flex flex-col">
-              <label for="username">CITY</label>
-              <input type="password" name="password" placeholder="Enter your password" required>
-            </div>
-            </div>
+        </div>
 
 
             <button type="submit" class="btn">Register</button>
         
           </form>
-        </div>
     </div>
+  </div>
   </div>
 </body>
 </html>
