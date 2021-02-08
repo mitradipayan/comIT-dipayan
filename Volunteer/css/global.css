@@ -2,7 +2,6 @@
 
 @import url("./style.css");
 
-
 :root {
 	--primary-color: #232324;
 	--theme-color: #06cdff;
@@ -19,7 +18,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-  line-height: 1.4;
+	line-height: 1.4;
 }
 
 .flex {
@@ -34,21 +33,21 @@
 }
 
 .flex-col {
-  flex-direction: column;
-  justify-content: flex-start;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .grid {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-  gap: 1.25rem;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+	gap: 1.25rem;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 }
 
 .grid-3 {
-  grid-template-columns: repeat(3,1fr);
+	grid-template-columns: repeat(3, 1fr);
 }
 
 a {
@@ -56,34 +55,49 @@ a {
 }
 
 .card {
-  background-color: #fff;
-  color: #333;
-  border-radius: 0.6rem;
-  box-shadow: 0 0.2rem 0.6rem rgba(0,0,0,0.2);
-  padding: 1.25rem;
-  margin: 0.6rem;
-} 
+	background-color: #fff;
+	color: #333;
+	border-radius: 0.6rem;
+	box-shadow: 0 0.2rem 0.6rem rgba(0, 0, 0, 0.2);
+	padding: 1.25rem;
+	margin: 0.6rem;
+}
 
 .btn {
-  width: 100%;
-  display: inline-block;
-  padding: 0.6rem 2rem;
-  cursor: pointer;
-  background-color: var(--theme-color);
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1rem;
-  color: #fff;
-
+	width: 100%;
+	display: inline-block;
+	padding: 0.6rem 2rem;
+	cursor: pointer;
+	background-color: var(--theme-color);
+	border: none;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	color: #fff;
 }
 
 /* Margins */
-.my-1 {margin: 1rem 0;}
-.my-2 {margin: 2rem 0;}
-.my-3 {margin: 3rem 0;}
-.my-4 {margin: 4rem 0;}
+.my-1 {
+	margin: 1rem 0;
+}
+.my-2 {
+	margin: 2rem 0;
+}
+.my-3 {
+	margin: 3rem 0;
+}
+.my-4 {
+	margin: 4rem 0;
+}
 
-.m-1 {margin: 1rem;}
-.m-2 {margin: 2rem;}
-.m-3 {margin: 3rem;}
-.m-4 {margin: 4rem;}
+.m-1 {
+	margin: 1rem;
+}
+.m-2 {
+	margin: 2rem;
+}
+.m-3 {
+	margin: 3rem;
+}
+.m-4 {
+	margin: 4rem;
+}
