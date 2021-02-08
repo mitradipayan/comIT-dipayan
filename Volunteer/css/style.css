@@ -148,7 +148,8 @@
 	justify-content: first baseline;
 }
 
-.forminput label {
+.forminput label,
+.checkwrap label {
 	margin-bottom: 0.3rem;
 	padding: 0 0.3rem;
 	font-size: 0.8rem;
@@ -340,3 +341,12 @@
   top: 30%;
 } */
 /* ---------------custom arrow based select box styling END---------------- */
+
+.checkwrap {
+	padding: 0.8rem 0.5rem;
+	text-align: left;
+}
+
+.checkwrap label {
+	margin-right: 2rem;
+}
