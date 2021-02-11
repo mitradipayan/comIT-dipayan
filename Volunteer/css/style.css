@@ -266,17 +266,19 @@
 }
 
 .search .background {
-	background-color: rgba(35, 158, 158, 0.1);
-	width: 100%;
+	/* background-color: rgba(35, 158, 158, 0.1); */
+	border-bottom: 1px solid #c7c7c7;
+	width: 90%;
 	justify-content: flex-start;
-	margin: 0.5rem;
-	padding: 1rem;
+	/* margin: 0.5rem; */
+	padding: 0.8rem;
 }
 
 .opplist .searchtitle {
 	margin: 0.5rem auto;
 	text-align: center;
 	text-transform: uppercase;
+	font-size: 0.8rem;
 	font-weight: bold;
 	color: #1dabb3;
 }
@@ -284,7 +286,7 @@
 .opplist .opps {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-	grid-template-rows: repeat(10, minmax(18rem, 1fr));
+	grid-template-rows: repeat(10, minmax(20rem, 1fr));
 	column-gap: 0.2rem;
 	row-gap: 0.5rem;
 }
@@ -314,6 +316,10 @@
 	margin: 0.1rem auto;
 	align-self: center;
 	position: relative;
+}
+
+.searchselect option {
+	font-size: 0.8rem;
 }
 
 .custom-select select,
