@@ -257,14 +257,28 @@
 }
 
 .opplist .search {
-	display: grid;
+	display: flex;
+	flex-direction: column;
 	background-color: #f8f8f8;
-	border: 1px solid red;
-	grid-template-columns: 1fr;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+}
+
+.search .background {
+	background-color: rgba(35, 158, 158, 0.1);
+	width: 100%;
+	justify-content: flex-start;
+	margin: 0.5rem;
+	padding: 1rem;
 }
 
 .opplist .searchtitle {
-	margin: 2rem auto;
+	margin: 0.5rem auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #1dabb3;
 }
 
 .opplist .opps {
@@ -273,10 +287,6 @@
 	grid-template-rows: repeat(10, minmax(18rem, 1fr));
 	column-gap: 0.2rem;
 	row-gap: 0.5rem;
-}
-
-.cause-select {
-	border: 1px solid red;
 }
 
 /* Register page styling */
@@ -299,8 +309,15 @@
 	align-items: flex-start;
 	position: relative;
 }
+.searchselect {
+	width: 90%;
+	margin: 0.1rem auto;
+	align-self: center;
+	position: relative;
+}
 
-.custom-select select {
+.custom-select select,
+.searchselect select {
 	height: 2rem;
 	padding: 0.3rem 0.3rem;
 	line-height: 1.5rem;
@@ -312,7 +329,8 @@
 	background-color: #f7f7f7;
 }
 
-.custom-select select:focus {
+.custom-select select:focus,
+.searchselect select:focus {
 	outline: none;
 }
 
@@ -321,6 +339,15 @@
 	top: 0.3rem;
 	right: 1rem;
 	pointer-events: none;
+}
+
+.searchselect .custom-arrow {
+	color: #1dabb3;
+}
+
+.searchselect select {
+	background-color: #f1f1f1;
+	border-bottom: 0.1rem solid #1dabb3;
 }
 
 /* ---------------custom arrow based select box styling - START---------------- */
