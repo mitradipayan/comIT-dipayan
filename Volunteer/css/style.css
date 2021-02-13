@@ -270,8 +270,7 @@
 	border-bottom: 1px solid #c7c7c7;
 	width: 90%;
 	justify-content: flex-start;
-	/* margin: 0.5rem; */
-	padding: 0.8rem;
+	padding: 2rem 1rem;
 }
 
 .opplist .searchtitle {
@@ -289,6 +288,86 @@
 	grid-template-rows: repeat(10, minmax(20rem, 1fr));
 	column-gap: 0.2rem;
 	row-gap: 0.5rem;
+}
+
+.option {
+	padding: 0.5rem 0;
+}
+
+/* Opportunities => Card internals specs */
+.card-container {
+	display: flex;
+	/* width: 100%; */
+	padding: 1rem 0.5rem;
+}
+
+.card-container .logo {
+	display: flex;
+	flex-direction: column;
+	min-width: 30%;
+	justify-content: center;
+}
+
+.logo p {
+	padding-top: 0.5rem;
+	font-size: 0.8rem;
+	text-align: center;
+	font-weight: bold;
+	color: var(--theme-color);
+}
+
+.card-container .logo img {
+	width: 100%;
+	border: 1px solid grey;
+	border-radius: 0.3rem;
+	padding: 0.5rem;
+}
+
+.logodesc {
+	padding-left: 1rem;
+}
+
+.logodesc .more {
+	text-align: right;
+	font-size: 0.8rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.logodesc .more a {
+	color: var(--theme-color);
+}
+
+.logodesc .more a:hover {
+	color: #1dabb3;
+}
+
+.logodesc .logotitle {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #029dc4;
+}
+
+.logodesc .activitydesc {
+	color: #6b6b6b;
+	font-size: 0.7rem;
+	margin-top: 0.3rem;
+}
+
+.logodesc .oppdesc {
+	font-size: 0.8rem;
+	padding: 0.5rem 0;
+	color: #576568;
+	font-weight: bold;
+}
+
+.logodesc .time-hours {
+	margin-top: 0.4rem;
+	font-size: 0.9rem;
+}
+
+.logodesc .time-duration {
+	font-size: 0.9.rem;
 }
 
 /* Register page styling */
