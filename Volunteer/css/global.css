@@ -29,7 +29,11 @@
 }
 
 .flex-spbtw {
-	justify-content: space-between;
+	justify-content:space-between;
+}
+
+.flex-speven {
+	justify-content: space-evenly;
 }
 
 .flex-col {

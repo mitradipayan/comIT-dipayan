@@ -70,7 +70,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	color: #e4e4e4;
-	height: 3rem;
+	min-height: 3rem;
 }
 
 .browse a {
@@ -298,7 +298,7 @@
 .card-container {
 	display: flex;
 	/* width: 100%; */
-	padding: 1rem 0.5rem;
+	padding: 0rem 0.5rem;
 }
 
 .card-container .logo {
@@ -359,6 +359,13 @@
 	padding: 0.5rem 0;
 	color: #576568;
 	font-weight: bold;
+	text-align: justify;
+}
+
+.logodesc .vacancy {
+	font-size: 0.8rem;
+	font-weight: bold;
+	color: crimson;
 }
 
 .logodesc .time-hours {
